@@ -86,7 +86,7 @@ bool compara(int a[], int b[], int tam) {
   for (int i = 0; i < tam; i++) {
     // caso a potencia da dose seja maior ou igual que o numero de
     // microrganismos presentes no corpo do paciente, adicionamos 1 ao contador
-    if (b[i] >= a[i])
+    if (b[i] > a[i])
       contador++;
   }
 
