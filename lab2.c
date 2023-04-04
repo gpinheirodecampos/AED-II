@@ -50,6 +50,9 @@ int main(void) {
     printf("sim\n");
   else
     printf("nao\n");
+  
+  free(microrganismos);
+  free(potencia);
 
   return 0;
 }
