@@ -1,3 +1,8 @@
+/*
+  Arvore Binaria utilizando Fila Dinamica em C++
+  Autor: Gabriel Pinheiro de Campos
+*/
+
 #include "Fila.h"
 #include <iostream>
 
